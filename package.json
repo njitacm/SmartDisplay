@@ -1,0 +1,18 @@
+{
+  "author": "Grant Butler <gjb7@njit.edu>",
+  "name": "SmartDisplay",
+  "description": "SmartDisplay for ACM",
+  "version": "0.8.1",
+  "homepage": "http://njit.acm.org",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~v0.6.5"
+  },
+  "dependencies": {
+    "express": "~2.5.6",
+    "socket.io": "~0.8.7"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,198 @@
+@font-face {
+	font-family: 'Terminal';
+	src: url('resources/fonts/terminal.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, Arial;
+	background: rgb(250, 250, 250);
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 3em !important;
+}
+
+h2 {
+	font-size: 2em !important;
+}
+
+h1, h2, h3 {
+	font-family: 'Terminal';
+	color: rgb(5, 73, 124);
+}
+
+body, #SmartDisplay, section {
+	width: 1280px;
+	height: 800px;
+}
+
+section {
+	position: absolute;
+	-webkit-transition: opacity 1s linear;
+	overflow: hidden;
+}
+
+/*.logo {
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    right top,
+	    color-stop(0, rgb(8, 102, 172)),
+	    color-stop(1, rgb(141, 171, 218))
+	);
+	-webkit-transform: rotate(-45deg);
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+}
+
+.logo .inner {
+	-webkit-transform: rotate(45deg);
+	text-align: center;
+	background: white;
+	width: 250px;
+	height: 250px;
+	-webkit-border-radius: 125px;
+	position: relative;
+	left: 25px;
+	top: 25px;
+	-webkit-box-shadow: rgb(48, 111, 170) 7px 5px 0px;
+}
+
+.logo .inner div {
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(1, rgb(8, 102, 172)),
+	    color-stop(0, rgb(141, 171, 218))
+	);
+	width: 220px;
+	height: 220px;
+	-webkit-border-radius: 110px;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	text-shadow: rgb(48, 111, 170) 5px 3px 0px;
+}
+
+.logo .inner div span {
+	position: relative;
+	top: 40px;
+	color: rgb(253, 254, 253);
+	font-weight: bold;
+	font-size: 600%;
+}*/
+
+.progressIndicator {
+	width: 40px;
+	height: 40px;
+	
+	position: absolute;
+	right: 0;
+	z-index: 999;
+}
+
+.twitterTickerContainer {
+	padding-left: 52px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: url('resources/images/twitter_newbird_blue.png') 2px 0 no-repeat rgb(240, 240, 240);
+	border-top: 1px solid rgb(200, 200, 200);
+	z-index: 1000;
+}
+
+.twitterTicker {
+	position: relative;
+	height: 52px;
+	overflow: hidden;
+}
+
+.twitterTicker p {
+	white-space: nowrap;
+	position: absolute;
+	margin: 0;
+	padding-left: 6px;
+	padding-top: 4px;
+	font-size: 2em;
+	
+	-webkit-transition: 0.2s top linear, 2s left linear;
+}
+
+.twitterTicker p strong {
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.twitterTicker p em {
+	font-style: normal;
+	font-size: 0.9em;
+	vertical-align: middle;
+	color: rgb(150, 150, 150);
+}
+
+#logo {
+	position: absolute;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	z-index: 1001;
+	top: 0;
+	left: 0;
+}
+
+#Home {
+	text-align: center;
+	padding-left: 5em;
+	padding-top: 2em;
+}
+
+#Home h1 {
+	width: 50%;
+}
+
+#Tutoring {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#Tutoring table {
+	margin-top: 10px;
+}
+
+#Tutoring table tr.alt {
+	background: rgb(210, 219, 229);
+}
+
+#Tutoring table td {
+	padding: 3px;
+	border-left: 1px solid rgb(200, 200, 200);
+	text-align: center;
+}
+
+#Tutoring table td:first-child {
+	border-left: 0;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#Tutoring table td p {
+	font-size: 0.85em;
+}
+
+#Tutoring table tr.trHighlighted {
+	background: rgba(74, 136, 195, 0.5);
+}
+
+#Tutoring table td.tdHighlighted {
+	background: rgba(74, 136, 195, 0.35);
+}

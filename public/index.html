@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="SmartDisplay">
+			<div id="sections"></div>
+		</div>
+		
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="main.js"></script>
+		<script>
+			window.addEventListener('load', function main() {
+				SmartDisplay.sharedDisplay().run();
+			}, false);
+		</script>
+		
+		<!-- Start adding your scripts here. -->
+		<script src="/scripts/home.js"></script>
+		<script src="/scripts/tutoring.js"></script>
+	</body>
+</html>
