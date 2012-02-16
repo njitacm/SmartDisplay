@@ -22,7 +22,7 @@ var Home = Page.extend({
 		var delta = 0;
 		
 		if(d.getDay() > 5 || d.getDay() == 5 && d.getHours() > 12) {
-			delta = 13 - d.getDay() // 13 = 5(Wednesday) + 7 + 1 (Don't know why. Investigate)
+			delta = 12 - d.getDay() // 12 = 5(Wednesday) + 7
 		} else {
 			delta = 6 - d.getDay();
 		}
