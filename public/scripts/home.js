@@ -24,7 +24,7 @@ var Home = Page.extend({
 		if(d.getDay() > 5 || d.getDay() == 5 && d.getHours() > 12) {
 			delta = 12 - d.getDay() // 12 = 5(Wednesday) + 7
 		} else {
-			delta = 6 - d.getDay();
+			delta = 5 - d.getDay();
 		}
 		
 		d.setDate(d.getDate() + delta);
