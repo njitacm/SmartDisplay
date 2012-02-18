@@ -200,6 +200,10 @@ var Tutoring = (function() {
 				for(var i = 0; i < rows.length; i++) {
 					var elm = rows[i].children[dayOfTheWeek];
 					
+					if(elm == null) {
+						continue;
+					}
+					
 					elm.classList.add('tdHighlighted');
 				};
 			}
@@ -212,8 +216,6 @@ var Tutoring = (function() {
 					var time = data.times[j];
 					
 					if(time.day == dayOfTheWeek - 1) {
-						console.log(time, d.getHours());
-						
 						if(!row.classList.contains('trHighlighted') && time.containsDate(d)) {
 							row.classList.add('trHighlighted');
 						} else if(row.classList.contains('trHighlighted') && !time.containsDate(d)) {
