@@ -39,7 +39,7 @@ var Home = Page.extend({
 		this._super();
 		
 		var heading = document.createElement('h1');
-		heading.appendChild(document.createTextNode('Assocation of Computing Machinery'));
+		heading.appendChild(document.createTextNode('Association for Computing Machinery'));
 		heading.style.margin = '0 auto';
 		this.view.appendChild(heading);
 		
