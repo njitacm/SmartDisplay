@@ -18,6 +18,14 @@ var Home = Page.extend({
 	},
 	
 	_calculateNextMeeting: function() {
+		if(true) {
+			// This is for the summer.
+			
+			this._nextMeeting = -1;
+			
+			return;
+		}
+		
 		var d = new Date();
 		var delta = 0;
 		
@@ -109,6 +117,15 @@ var Home = Page.extend({
 	},
 	
 	_updateDisplay: function _updateDisplay() {
+		if(this._nextMeeting == -1) {
+			this._nowHeading.innerText = "Next Fall";
+			
+			this._nowHeading.style.display = 'block';
+			this._countdownHeading.style.display = 'none';
+			
+			return;
+		}
+		
 		var d = new Date();
 		var delta = (this._nextMeeting - d) / 1000;
 		

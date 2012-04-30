@@ -317,5 +317,6 @@ var Tutoring = (function() {
 		}
 	});
 	
-	SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring);
+	// Commented out for the summer.
+	// SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring);
 })();
