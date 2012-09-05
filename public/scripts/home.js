@@ -18,6 +18,7 @@ var Home = Page.extend({
 	},
 	
 	_calculateNextMeeting: function() {
+/*
 		if(true) {
 			// This is for the summer.
 			
@@ -25,6 +26,7 @@ var Home = Page.extend({
 			
 			return;
 		}
+*/
 		
 		var d = new Date();
 		var delta = 0;
