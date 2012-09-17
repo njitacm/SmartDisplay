@@ -54,7 +54,7 @@ var Home = Page.extend({
 		this.view.appendChild(heading);
 		
 		heading = document.createElement('h2');
-		heading.appendChild(document.createTextNode('Meetings - Fridays, 12 Noon, GITC 3710'));
+		heading.appendChild(document.createTextNode('Meetings - Fridays, 12 Noon, GITC 4415'));
 		heading.style.marginTop = '3em';
 		this.view.appendChild(heading);
 		
