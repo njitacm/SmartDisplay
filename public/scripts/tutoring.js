@@ -114,19 +114,19 @@ var Tutoring = (function() {
 				name: 'Ethan Suntag',
 				subjects: ['Java', 'C', 'C++'],
 				courses: ['CS 113', 'CS 114', 'CS 115', 'CS 266', 'IT 102', 'IT 120', 'IT 201', 'IT 202', 'IT 386', 'IT 420'],
-				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(12, 30, 00), new Time(17, 30, 00))]
+				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(17, 30, 00))]
 			},
 			{
 				name: 'Joseph Flynn',
 				subjects: ['Python', 'Java', 'Matlab', 'Visual Basic', 'Boolean Algebra', 'Digital Electronics'],
 				courses: ['CS 100', 'CS 101', 'CS 113', 'CS 114', 'Others'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, -0, 00), new Time(12, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, 00, 00), new Time(12, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
 			},
 			{
 				name: 'Mihir Sanghavi',
 				subjects: ['Python', 'Java', 'Matlab', 'C++'],
 				courses: ['CS 100', 'CS 101', 'CS 110', 'CS 111', 'CS 113', 'CS 114', 'CS 115', 'CS 280'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.Friday, new Time(10, 00, 00), new Time(13, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(10, 00, 00), new Time(13, 00, 00))]
 			},
 			{
 				name: 'Kevin Anthony',
