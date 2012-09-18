@@ -228,7 +228,7 @@ var Tutoring = (function() {
 			this.table.cellSpacing = '0';
 			
 			var heading = document.createElement('h2');
-			heading.appendChild(document.createTextNode('Spring 2012 - ACM Tutoring Schedule'));
+			heading.appendChild(document.createTextNode('Fall 2012 - ACM Tutoring Schedule'));
 			this.view.appendChild(heading);
 			
 			var row = document.createElement('tr');
