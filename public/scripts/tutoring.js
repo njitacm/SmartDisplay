@@ -137,7 +137,7 @@ var Tutoring = (function() {
 			{
 				name: 'Tom Esposito',
 				subjects: ['Java', 'Python'],
-				courses: ['CS 100', 'CS 113', 'CS 114'],
+				courses: ['CS 100', 'CS 113'],
 				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(11, 30, 00), new Time(14, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(11, 30, 00), new Time(14, 00, 00))]
 			},
 			{
