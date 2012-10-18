@@ -145,12 +145,6 @@ var Tutoring = (function() {
 				subjects: ['Java', 'Python', 'C++'],
 				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 115'],
 				times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(12, 30, 00), new Time(15, 30, 00))]
-			},
-			{
-				name: 'Joseph Parrinello',
-				subjects: ['Java', 'Python'],
-				courses: ['CS 100', 'CS 113', 'CS 114'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(15, 30, 00), new Time(17, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(15, 30, 00), new Time(17, 00, 00))]
 			}
 		],
 		
