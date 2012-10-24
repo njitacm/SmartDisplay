@@ -105,12 +105,6 @@ var Tutoring = (function() {
 		
 		_data: [
 			{
-				name: 'Erika Waldinger',
-				subjects: ['Java', 'C++', 'PHP', 'Perl', 'SQL', 'Shell Scripting', 'Matlab'],
-				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 241', 'CS252', 'CS 280', 'CS 288', 'CS 332', 'CS 431'],
-				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(15, 00, 00), new Time(17, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(16, 00, 00), new Time(17, 00, 00))]
-			},
-			{
 				name: 'Ethan Suntag',
 				subjects: ['Java', 'C', 'C++'],
 				courses: ['CS 113', 'CS 114', 'CS 115', 'CS 266', 'IT 102', 'IT 120', 'IT 201', 'IT 202', 'IT 386', 'IT 420'],
@@ -151,6 +145,15 @@ var Tutoring = (function() {
 		init: function() {
 			this._date = new Date();
 			this._date.setDate(this._date.getDate() - 1);
+			
+			if(this._date > 1350792000000 && this._date < 1351310400000) {
+				this._data.push({
+					name: 'Pavel Romanovski (This Week Only)',
+					subjects: ['C', 'C++'],
+					courses: ['CS 280', 'CS 288'],
+					times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(17, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(10, 00, 00), new Time(13, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(11, 00, 00), new Time(13, 00, 00))]
+				})
+			}
 		},
 		
 		loadView: function() {
@@ -220,6 +223,11 @@ var Tutoring = (function() {
 			}
 			
 			this._date = d;
+			
+			if(this._date > 1351310400000) {
+				// That is, the date is past October 27th, refresh page and remove Pavel.
+				location.reload();
+			}
 		},
 		
 		_createTable: function() {
