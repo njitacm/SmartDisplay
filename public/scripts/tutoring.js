@@ -145,15 +145,6 @@ var Tutoring = (function() {
 		init: function() {
 			this._date = new Date();
 			this._date.setDate(this._date.getDate() - 1);
-			
-			if(this._date > 1350792000000 && this._date < 1351310400000) {
-				this._data.push({
-					name: 'Pavel Romanovski (This Week Only)',
-					subjects: ['C', 'C++'],
-					courses: ['CS 280', 'CS 288'],
-					times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(17, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(10, 00, 00), new Time(13, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(11, 00, 00), new Time(13, 00, 00))]
-				})
-			}
 		},
 		
 		loadView: function() {
@@ -223,11 +214,7 @@ var Tutoring = (function() {
 			}
 			
 			this._date = d;
-			
-			if(this._date > 1351310400000) {
-				// That is, the date is past October 27th, refresh page and remove Pavel.
-				location.reload();
-			}
+
 		},
 		
 		_createTable: function() {
