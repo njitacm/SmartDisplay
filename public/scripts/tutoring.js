@@ -306,5 +306,5 @@ var Tutoring = (function() {
 		}
 	});
 	
-	SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring);
+/* 	SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring); */
 })();

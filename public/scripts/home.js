@@ -18,7 +18,7 @@ var Home = Page.extend({
 	},
 	
 	_calculateNextMeeting: function() {
-		if(true) {
+		if(false) {
 			// This is for the summer.
 			
 			this._nextMeeting = -1;
