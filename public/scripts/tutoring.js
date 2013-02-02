@@ -138,7 +138,7 @@ var Tutoring = (function() {
 				name: 'Timothy Boyle',
 				subjects: ['Java', 'Python', 'C++', 'C', 'ARM Assembly'],
 				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 115', 'CS 252', 'CS 288'],
-				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(13, 30, 00), new Time(16, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(16, 30, 00)), ]
+				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(13, 30, 00), new Time(16, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(16, 30, 00))]
 			},
 			{
 				name: 'Eduardo Preciado',
