@@ -107,39 +107,45 @@ var Tutoring = (function() {
 			{
 				name: 'Ethan Suntag',
 				subjects: ['Java', 'C', 'C++'],
-				courses: ['CS 113', 'CS 114', 'CS 115', 'CS 266', 'IT 102', 'IT 120', 'IT 201', 'IT 202', 'IT 386', 'IT 420'],
-				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(17, 30, 00))]
+				courses: ['CS 100-200', 'CS 332', 'CS 341', 'CS 370', 'CS 431', 'CS 490', 'IT 120', 'IT 202', 'IT 420'],
+				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
 			},
 			{
-				name: 'Joseph Flynn',
-				subjects: ['Python', 'Java', 'Matlab', 'Visual Basic', 'Boolean Algebra', 'Digital Electronics'],
-				courses: ['CS 100', 'CS 101', 'CS 113', 'CS 114', 'Others'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, 00, 00), new Time(12, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
+				name: 'Alec Brión',
+				subjects: ['Python', 'Java', 'C++'],
+				courses: ['CS 100', 'CS 113'],
+				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
 				name: 'Mihir Sanghavi',
-				subjects: ['Python', 'Java', 'Matlab', 'C++'],
-				courses: ['CS 100', 'CS 101', 'CS 110', 'CS 111', 'CS 113', 'CS 114', 'CS 115', 'CS 280'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(10, 00, 00), new Time(13, 00, 00))]
+				subjects: ['Python', 'Java', 'Matlab', 'C++', 'MySQL'],
+				courses: ['CS 100', 'CS 101', 'CS 113', 'CS 114', 'CS 241', 'CS 280', 'CS 288', 'CS 341', 'CS 431'],
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(17, 00, 00))]
 			},
 			{
-				name: 'Kevin Anthony',
-				subjects: ['Python', 'Java', 'C'],
-				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 280', 'CS 288', 'CS 332', 'CS 431'],
-				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 00, 00), new Time(17, 00, 00))]
-			},
-			{
-				name: 'Tom Esposito',
-				subjects: ['Java', 'Python'],
+				name: 'Luke Greenleaf',
+				subjects: ['Python', 'Java', 'C++', 'PHP', 'MySQL', 'HTML'],
 				courses: ['CS 100', 'CS 113'],
-				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(11, 30, 00), new Time(14, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(11, 30, 00), new Time(14, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 00, 00), new Time(13, 30, 00))]
+			},
+			{
+				name: 'Stephen Morrison',
+				subjects: ['Python'],
+				courses: ['CS 100'],
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
 			},
 			{
 				name: 'Timothy Boyle',
-				subjects: ['Java', 'Python', 'C++'],
-				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 115'],
-				times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(12, 30, 00), new Time(15, 30, 00))]
-			}
+				subjects: ['Java', 'Python', 'C++', 'C', 'ARM Assembly'],
+				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 115', 'CS 252', 'CS 288'],
+				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(13, 30, 00), new Time(16, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(16, 30, 00)), ]
+			},
+			{
+				name: 'Eduardo Preciado',
+				subjects: ['Python', 'Java'],
+				courses: ['CS 100', 'CS 113'],
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, 00, 00), new Time(11, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
+			},
 		],
 		
 		init: function() {
@@ -223,7 +229,7 @@ var Tutoring = (function() {
 			this.table.cellSpacing = '0';
 			
 			var heading = document.createElement('h2');
-			heading.appendChild(document.createTextNode('Fall 2012 - ACM Tutoring Schedule'));
+			heading.appendChild(document.createTextNode('Spring 2013 - ACM Tutoring Schedule'));
 			this.view.appendChild(heading);
 			
 			var row = document.createElement('tr');
@@ -306,5 +312,5 @@ var Tutoring = (function() {
 		}
 	});
 	
-/* 	SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring); */
+	SmartDisplay.sharedDisplay().registerHandler('Tutoring', Tutoring);
 })();
