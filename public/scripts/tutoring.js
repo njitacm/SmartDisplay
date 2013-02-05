@@ -120,7 +120,7 @@ var Tutoring = (function() {
 				name: 'Mihir Sanghavi',
 				subjects: ['Python', 'Java', 'Matlab', 'C++', 'MySQL'],
 				courses: ['CS 100', 'CS 101', 'CS 113', 'CS 114', 'CS 241', 'CS 280', 'CS 288', 'CS 341', 'CS 431'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(17, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 33, 00), new Time(14, 30, 00))]
 			},
 			{
 				name: 'Luke Greenleaf',
