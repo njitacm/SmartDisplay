@@ -144,7 +144,7 @@ var Tutoring = (function() {
 				name: 'Eduardo Preciado',
 				subjects: ['Python', 'Java'],
 				courses: ['CS 100', 'CS 113'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, 00, 00), new Time(11, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(10, 00, 00), new Time(11, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(10, 00, 00), new Time(11, 30, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 		],
 		
