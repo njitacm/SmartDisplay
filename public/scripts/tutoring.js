@@ -106,7 +106,7 @@ var Tutoring = (function() {
 		_data: [
 			{
 				name: 'Ethan Suntag',
-				subjects: ['Java', 'C', 'C++', 'Python', 'PHP', 'Bash', Matlab'],
+				subjects: ['Java', 'C', 'C++', 'Python', 'PHP', 'Bash', 'Matlab'],
 				courses: ['CS 100-200', 'CS 332', 'CS 341', 'CS 370', 'CS 431', 'CS 490', 'IT 120', 'IT 202', 'IT 420'],
 				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
 			},
