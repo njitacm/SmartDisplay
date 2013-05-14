@@ -118,7 +118,7 @@ var Home = Page.extend({
 	
 	_updateDisplay: function _updateDisplay() {
 		if(this._nextMeeting == -1) {
-			this._nowHeading.innerText = "Next Spring";
+			this._nowHeading.innerText = "Next Fall";
 			
 			this._nowHeading.style.display = 'block';
 			this._countdownHeading.style.display = 'none';
