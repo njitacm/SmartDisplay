@@ -192,6 +192,9 @@ var SmartDisplay = Class.extend({
 		this._smartDiv.appendChild(this._progressIndicator.element());
 		
 		this._socket = io.connect('http://localhost:3000/');
+		this._socket.on('refresh', function() {
+			location.reload();
+		});
 		
 		this._twitterTicker = new TwitterTicker();
 		this._smartDiv.appendChild(this._twitterTicker.element());
@@ -214,6 +217,8 @@ var SmartDisplay = Class.extend({
 			active.classList.add('active');
 			active.style.opacity = 1;
 		}, 0);
+		
+		document.cookie = 'loaded=' + parseInt((new Date()).getTime() / 1000);
 	},
 	
 	socket: function socket() {
