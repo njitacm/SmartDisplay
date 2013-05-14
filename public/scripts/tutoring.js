@@ -106,7 +106,7 @@ var Tutoring = (function() {
 		_data: [
 			{
 				name: 'Ethan Suntag',
-				subjects: ['Java', 'C', 'C++'],
+				subjects: ['Java', 'C', 'C++', 'Python', 'PHP', 'Bash', 'Matlab'],
 				courses: ['CS 100-200', 'CS 332', 'CS 341', 'CS 370', 'CS 431', 'CS 490', 'IT 120', 'IT 202', 'IT 420'],
 				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
 			},
@@ -115,12 +115,6 @@ var Tutoring = (function() {
 				subjects: ['Python', 'Java', 'C++'],
 				courses: ['CS 100', 'CS 113'],
 				times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(15, 30, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(15, 30, 00))]
-			},
-			{
-				name: 'Mihir Sanghavi',
-				subjects: ['Python', 'Java', 'Matlab', 'C++', 'MySQL'],
-				courses: ['CS 100', 'CS 101', 'CS 113', 'CS 114', 'CS 241', 'CS 280', 'CS 288', 'CS 341', 'CS 431'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(14, 30, 00))]
 			},
 			{
 				name: 'Luke Greenleaf',
