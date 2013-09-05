@@ -7,6 +7,7 @@ var Home = Page.extend({
 	_countdownHeading: null,
 	_nowHeading: null,
 	
+	_firstMeeting: new Date(2013, 8, 13, 12),
 	_nextMeeting: null,
 	
 	_running: false,
@@ -14,11 +15,15 @@ var Home = Page.extend({
 	init: function() {
 		this._super();
 		
-		this._calculateNextMeeting();
+		if(this._firstMeeting > +new Date()) {
+			this._nextMeeting = this._firstMeeting;
+		} else {
+			this._calculateNextMeeting();
+		}
 	},
 	
 	_calculateNextMeeting: function() {
-		if(true) {
+		if(false) {
 			// This is for the summer.
 			
 			this._nextMeeting = -1;
