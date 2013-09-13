@@ -123,7 +123,7 @@ var Tutoring = (function() {
 				times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(10, 00, 00), new Time(13, 00, 00))]
 			},
 			{
-				name: 'Douglas Jams',
+				name: 'Douglas James',
 				subjects: ['Java', 'PHP', 'SQL', 'C#'],
 				courses: ['CS 113', 'CS 114'],
 				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(15, 30, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(15, 00, 00), new Time(17, 00, 00))]
