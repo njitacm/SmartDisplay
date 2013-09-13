@@ -7,7 +7,6 @@ var Home = Page.extend({
 	_countdownHeading: null,
 	_nowHeading: null,
 	
-	_firstMeeting: new Date(2013, 8, 13, 12),
 	_nextMeeting: null,
 	
 	_running: false,
@@ -15,11 +14,7 @@ var Home = Page.extend({
 	init: function() {
 		this._super();
 		
-		if(this._firstMeeting > +new Date()) {
-			this._nextMeeting = this._firstMeeting;
-		} else {
-			this._calculateNextMeeting();
-		}
+		this._calculateNextMeeting();
 	},
 	
 	_calculateNextMeeting: function() {
@@ -34,10 +29,30 @@ var Home = Page.extend({
 		var d = new Date();
 		var delta = 0;
 		
-		if(d.getDay() > 5 || d.getDay() == 5 && d.getHours() >= 12 && d.getMinutes() >= 29) {
-			delta = 12 - d.getDay() // 12 = 5(Wednesday) + 7
+		function adjustForMeetingNextWeek(date) {
+			return 12 - date.getDay(); // 12 = 5(Wednesday) + 7
+		}
+		
+		function adjustForMeetingThisWeek(date) {
+			return 5 - date.getDay()
+		}
+		
+		if(d.getDay() > 5) {
+			delta = adjustForMeetingNextWeek(d);
+		} else if(d.getDay() == 5) {
+			if(d.getHours() > 12) {
+				delta = adjustForMeetingNextWeek(d);
+			} else if(d.getHourse() == 12) {
+				if(d.getMinutes() >= 29) {
+					delta = adjustForMeetingNextWeek(d);
+				} else {
+					delta = adjustForMeetingThisWeek(d);
+				}
+			} else {
+				delta = adjustForMeetingThisWeek(d);
+			}
 		} else {
-			delta = 5 - d.getDay();
+			delta = adjustForMeetingThisWeek(d);
 		}
 		
 		d.setDate(d.getDate() + delta);
