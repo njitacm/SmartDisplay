@@ -42,7 +42,7 @@ var Home = Page.extend({
 		} else if(d.getDay() == 5) {
 			if(d.getHours() > 12) {
 				delta = adjustForMeetingNextWeek(d);
-			} else if(d.getHourse() == 12) {
+			} else if(d.getHours() == 12) {
 				if(d.getMinutes() >= 29) {
 					delta = adjustForMeetingNextWeek(d);
 				} else {
