@@ -113,7 +113,7 @@ var Tutoring = (function() {
 			{
 				name: 'Grant Butler',
 				subjects: ['HTML', 'JavaScript', 'CSS', 'PHP', 'MySQL'],
-				courses: ['CS 113', 'IT 201', 'IT 202', 'IT 302', 'IS 322'],
+				courses: ['IT 201', 'IT 202', 'IT 302', 'IS 322'],
 				times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(14, 30, 00), new Time(17, 30, 00))]
 			},
 			{
