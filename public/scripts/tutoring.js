@@ -114,7 +114,13 @@ var Tutoring = (function() {
 				name: 'Mohammad Omer',
 				subjects: ['Python', 'Java', 'C#'],
 				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 280'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 00, 00), new Time(12, 30, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 00, 00), new Time(12, 30, 00))]
+			},
+			{
+				name: 'Mohammad Omer',
+				subjects: ['Python', 'Java', 'C#'],
+				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 280'],
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
 			},
 			{
 				name: 'Dante Urso',
