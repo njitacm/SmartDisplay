@@ -108,13 +108,13 @@ var Tutoring = (function() {
 				name: 'Luke Greenleaf',
 				subjects: ['Python', 'Java', 'C', 'C++', 'HTML5', 'MySQL'],
 				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 241', 'CS 280', 'CS 288', 'CS 332'],
-				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(15, 00, 00), new Time(18, 00, 00))]
+				times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(15, 00, 00), new Time(18, 00, 00))]
 			},
 			{
 				name: 'Mohammad Omer',
 				subjects: ['Python', 'Java', 'C#'],
 				courses: ['CS 100', 'CS 113', 'CS 114', 'CS 280'],
-				times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(11, 30, 00), new Time(14, 30, 00))]
+				times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 00, 00), new Time(12, 30, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
 			},
 			{
 				name: 'Dante Urso',
@@ -138,7 +138,7 @@ var Tutoring = (function() {
 				name: 'Edward Conroy'
 				, subjects: ['Java', 'C++', 'C', 'C#', 'Python']
 				, courses: []
-				, times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
+				, times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
 			},
 			{
 				name: 'Stephen Morrison'
@@ -157,6 +157,12 @@ var Tutoring = (function() {
 				, subjects: ['HTML', 'Javascript', 'CSS', 'PHP', 'MySQL']
 				, courses: ['CS 113', 'IS 117']
 				, times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
+			},
+			{
+				name: 'Kuhar Deepakkumar'
+				, subjects: ['Visual Basic', 'Java(Animation, Games, & Web Development)', 'Javascript', 'HTML', 'CSS', 'C++', 'C', 'Excel Macros', 'AML']
+				, courses: ['Graduate Student']
+				, times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(15, 00, 00), new Time(18, 00, 00))]
 			}
 		],
 		
