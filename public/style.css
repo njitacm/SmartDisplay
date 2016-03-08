@@ -23,7 +23,7 @@ h2 {
 }
 
 h4 {
-    font-size: .73em;
+    font-size: .78em;
 }
 
 h1, h2, h3 {
@@ -41,8 +41,8 @@ section {
 	-webkit-transition: opacity 1s linear;
 	overflow: hidden;
 }
-
-/*.logo {
+/*
+.logo {
 	background: -webkit-gradient(
 	    linear,
 	    left bottom,
@@ -96,8 +96,8 @@ section {
 	color: rgb(253, 254, 253);
 	font-weight: bold;
 	font-size: 600%;
-} */ 
-
+}  
+*/
 .progressIndicator {
 	width: 40px;
 	height: 40px;
@@ -144,8 +144,8 @@ section {
 	font-size: 0.9em;
 	vertical-align: middle;
 	color: rgb(150, 150, 150);
-} */
-
+} 
+*/
 #logo {
 	position: absolute;
 	-webkit-transition: -webkit-transform 1s ease-in-out;
