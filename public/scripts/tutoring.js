@@ -177,12 +177,6 @@ var Tutoring = (function() {
 			  times: []
 			},
 			{
-			  name: 'Eduardo Preciado',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
-			},
-			{
 			  name: 'Andrew Rendon',
 			  subjects: [''],
 			  courses: [''],
