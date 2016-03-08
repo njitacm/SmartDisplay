@@ -183,12 +183,6 @@ var Tutoring = (function() {
 			  times: []
 			},
 			{
-			  name: 'Michael Selsky',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
-			},
-			{
 			  name: 'Inderpal Singh',
 			  subjects: ['Java', 'Python'],
 			  courses: ['CS 100', '113'],
