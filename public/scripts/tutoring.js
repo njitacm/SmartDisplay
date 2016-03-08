@@ -106,9 +106,9 @@ var Tutoring = (function() {
 		_data: [
 			{
 			  name: 'Andres Altamirano',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['HTML/CSS', 'Java', 'JavaScript', 'Python'],
+			  courses: ['CS 100', '113', '114', '280', '332', '356'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
 			},
 			{
 			  name: 'Sidney Carr',
@@ -124,9 +124,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Nicholas Devlin',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['C', 'C++', 'Java', 'Python', 'Visual Basic'],
+			  courses: ['CS 280', '431', '434'],
+			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(10, 00, 00), new Time(13, 00, 00))]
 			},
 			{
 			  name: 'Elizabeth Egan',
@@ -147,10 +147,10 @@ var Tutoring = (function() {
 			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
-			  name: 'Aili Lim',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  name: 'AiLi Lim',
+			  subjects: ['HTML/CSS', 'MySQL', 'PHP'],
+			  courses: ['IT 202'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
 			},
 			{
 			  name: 'Stephen Morrison',
