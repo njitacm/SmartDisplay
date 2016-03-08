@@ -118,9 +118,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Edward Conroy',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['C', 'C++', 'C#', 'Java'],
+			  courses: ['CS 114', 'IT 114' ,'256', '266', '276', '286', '485'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 30, 00), new Time(15, 00, 00))]
 			},
 			{
 			  name: 'Nicholas Devlin',
