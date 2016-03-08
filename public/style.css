@@ -22,6 +22,10 @@ h2 {
 	font-size: 2em !important;
 }
 
+h4 {
+    font-size: .73em;
+}
+
 h1, h2, h3 {
 	font-family: 'Terminal';
 	color: rgb(5, 73, 124);
@@ -92,7 +96,7 @@ section {
 	color: rgb(253, 254, 253);
 	font-weight: bold;
 	font-size: 600%;
-}*/
+} */ 
 
 .progressIndicator {
 	width: 40px;
@@ -102,7 +106,7 @@ section {
 	right: 0;
 	z-index: 999;
 }
-
+/*
 .twitterTickerContainer {
 	padding-left: 52px;
 	width: 100%;
@@ -140,7 +144,7 @@ section {
 	font-size: 0.9em;
 	vertical-align: middle;
 	color: rgb(150, 150, 150);
-}
+} */
 
 #logo {
 	position: absolute;
@@ -187,7 +191,7 @@ section {
 }
 
 #Tutoring table td p {
-	font-size: 0.85em;
+	font-size: 0.70em;
 }
 
 #Tutoring table tr.trHighlighted {
