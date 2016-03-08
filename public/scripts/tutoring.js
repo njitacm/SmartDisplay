@@ -160,8 +160,7 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Mohit Nakrani',
-				//, Python,  , , Open \ MPI, SQL, PHP, , , , , , ,
-			  subjects: ['Ajax', 'Bash', 'C', 'C++', 'Git', 'Grails', 'Groovy', 'HTML/CSS', 'Java', 'JavaScript', 'jQuery', 'MATLAB', 'OpenMPI', 'PHP', 'Python', 'SQL'],
+			  subjects: ['Ajax', 'Bash', 'C', 'C++', 'HTML/CSS', 'Java', 'JavaScript', 'jQuery', 'MATLAB', 'PHP', 'Python', 'SQL'],
 			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
 			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(13, 30, 00))]
 			},
