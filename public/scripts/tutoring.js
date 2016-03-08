@@ -166,9 +166,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Babatunde Ojo',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['HTML/CSS', 'Java', 'JavaScript', 'Python'],
+			  courses: ['CS 100', '113', 'IS 117'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 00, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
 			},
 			{
 			  name: 'Joshua Olayinka',
