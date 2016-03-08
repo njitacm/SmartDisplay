@@ -168,13 +168,13 @@ var Tutoring = (function() {
 			  name: 'Babatunde Ojo',
 			  subjects: ['HTML/CSS', 'Java', 'JavaScript', 'Python'],
 			  courses: ['CS 100', '113', 'IS 117'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 00, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 00, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 00, 00), new Time(14, 00, 00))]
 			},
 			{
 			  name: 'Joshua Olayinka',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['C++', 'Java', 'Python'],
+			  courses: ['CS 114', 'IT 310'],
+			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(12, 00, 00), new Time(14, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
 			},
 			{
 			  name: 'Andrew Rendon',
