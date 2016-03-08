@@ -143,7 +143,7 @@ var Tutoring = (function() {
 			{
 			  name: 'Atsuki Imamura',
 			  subjects: ['ARM Assembly', 'C', 'C++', 'HTML/CSS', 'Java', 'JavaScript', 'MATLAB', 'PHP', 'Python', 'SQL'],
-			  courses: ['CS 100', '113' , '114', '252', '280', '332', '341'],
+			  courses: ['CS 100', '113' , '114', '252', '241', '280', '332', '341'],
 			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
@@ -160,9 +160,10 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Mohit Nakrani',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+				//, Python,  , , Open \ MPI, SQL, PHP, , , , , , ,
+			  subjects: ['Ajax', 'Bash', 'C', 'C++', 'Git', 'Grails', 'Groovy', 'HTML/CSS', 'Java', 'JavaScript', 'jQuery', 'MATLAB', 'OpenMPI', 'PHP', 'Python', 'SQL'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
+			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(13, 30, 00))]
 			},
 			{
 			  name: 'Babatunde Ojo',
@@ -190,9 +191,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Khadir Williams',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['Java', 'Python'],
+			  courses: ['CS 100', '113', '114', '252'],
+			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(14, 30, 00))]
 			},
 			{
 			  name: 'Mikhail Zharov',
