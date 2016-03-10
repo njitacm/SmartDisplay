@@ -196,9 +196,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Mikhail Zharov',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['C++', 'C#', 'Java', 'MATLAB', 'Python', 'SQL'],
+			  courses: ['CS 100', '370', '431'],
+			  times: [MeetingTime.Days.THURSDAY, new Time(15, 30, 00), new Time(18, 00, 00)), MeetingTime.Days.FRIDAY, new Time(17, 00, 00), new Time(18, 00, 00))]
 			}
 		],
 
