@@ -178,9 +178,9 @@ var Tutoring = (function() {
 			},
 			{
 			  name: 'Andrew Rendon',
-			  subjects: [''],
-			  courses: [''],
-			  times: []
+			  subjects: ['HTML', 'Java', 'JavaScript', 'jQuery', 'MySQL', 'PHP', 'Python'],
+			  courses: ['CS 113', 'IT 201', '386', '420'],
+			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(16, 30, 00))]
 			},
 			{
 			  name: 'Inderpal Singh',
