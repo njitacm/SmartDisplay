@@ -143,7 +143,7 @@ var Tutoring = (function() {
 			{
 			  name: 'Atsuki Imamura',
 			  subjects: ['ARM Assembly', 'C', 'C++', 'HTML/CSS', 'Java', 'JavaScript', 'MATLAB', 'PHP', 'Python', 'SQL'],
-			  courses: ['CS 100', '113' , '114', '252', '241', '280', '332', '341'],
+			  courses: ['CS 100', '113' , '114', '241', '252', '280', '332', '341'],
 			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
