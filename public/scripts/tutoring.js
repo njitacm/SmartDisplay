@@ -105,100 +105,98 @@ var Tutoring = (function() {
 
 		_data: [
 			{
-			  name: 'Andres Altamirano',
-			  subjects: ['HTML/CSS', 'Java', 'JavaScript', 'Python'],
-			  courses: ['CS 100', '113', '114', '280', '332', '356'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
+			  name: 'Max Alekhnovich',
+			  subjects: ['JavaScript'],
+			  courses: ['IS 218', '219', '322', '331', '333', '344', '373', '390', 'IT 310'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(14, 00, 00), new Time(15, 30, 00))]
 			},
 			{
-			  name: 'Sidney Carr',
-			  subjects: ['ARM Assembly', 'C++', 'Java', 'MATLAB', 'Python'],
-			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
+			  name: 'David Barnes',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113'],
 			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 00, 00), new Time(14, 30, 00))]
 			},
 			{
-			  name: 'Edward Conroy',
-			  subjects: ['C', 'C++', 'C#', 'Java'],
-			  courses: ['CS 114', 'IT 114' ,'256', '266', '276', '286', '485'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 30, 00), new Time(15, 00, 00))]
+			  name: 'Matthew Belanger',
+			  subjects: ['C++', 'Java','Python'],
+			  courses: ['CS 100', '113'],
+			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
 			},
 			{
-			  name: 'Nicholas Devlin',
-			  subjects: ['C', 'C++', 'Java', 'Python', 'Visual Basic'],
-			  courses: ['CS 280', '431', '434'],
-			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(10, 00, 00), new Time(13, 00, 00))]
+			  name: 'Alec Brion',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332', '337', '345', '356', '388', '431', '435'],
+			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(17, 30, 00))]
 			},
 			{
-			  name: 'Elizabeth Egan',
-			  subjects: ['C++', 'Java', 'Python'],
-			  courses: ['CS 100', '113', '280'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(11, 30, 00), new Time(13, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
+			  name: 'Sidney Carr',
+			  subjects: ['MATLAB'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
+			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
-			  name: 'David Etler',
-			  subjects: ['C', 'C++', 'Java', 'JavaScript', 'MATLAB', 'Python'],
-			  courses: ['CS 100', '113', '114', '115', '116'],
+			  name: 'John Daudelin',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113'],
 			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(15, 00, 00))]
 			},
 			{
+			  name: 'David Etler',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 113', '114', '115', '116', '252', '280'],
+			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(15, 00, 00), new Time(17, 00, 00))]
+			},
+			{
 			  name: 'Atsuki Imamura',
-			  subjects: ['ARM Assembly', 'C', 'C++', 'HTML/CSS', 'Java', 'JavaScript', 'MATLAB', 'PHP', 'Python', 'SQL'],
-			  courses: ['CS 100', '113' , '114', '241', '252', '280', '332', '341'],
-			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
+			  subjects: ['MATLAB'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(16, 00, 00), new Time(17, 30, 00))]
 			},
 			{
-			  name: 'AiLi Lim',
-			  subjects: ['HTML/CSS', 'MySQL', 'PHP'],
-			  courses: ['IT 202'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
+			  name: 'Pious Kukreja',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '252', '332', '356', '431'],
+			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(14, 30, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(11, 30, 00), new Time(14, 30, 00))]
 			},
 			{
-			  name: 'Stephen Morrison',
-			  subjects: ['Java', 'JavaScript', 'PHP', 'Python'],
-			  courses: ['CS 100', '113', '241', '252', '280', '288', '332', '341', '345', '356', '431', '435'],
-			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
+			  name: 'Justin Mangaoang',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332', '341', '356', '388', '431', '435'],
+			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 00, 00), new Time(17, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
 			},
 			{
 			  name: 'Mohit Nakrani',
-			  subjects: ['Ajax', 'Bash', 'C', 'C++', 'HTML/CSS', 'Java', 'JavaScript', 'jQuery', 'MATLAB', 'PHP', 'Python', 'SQL'],
-			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332'],
-			  times: [new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(11, 30, 00), new Time(13, 30, 00))]
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '241', '252', '280', '288', '332', '356', '431'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(16, 00, 00), new Time(18, 00, 00))]
 			},
 			{
-			  name: 'Babatunde Ojo',
-			  subjects: ['HTML/CSS', 'Java', 'JavaScript', 'Python'],
-			  courses: ['CS 100', '113', 'IS 117'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 00, 00), new Time(13, 30, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
+			  name: 'Karina Palaric',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '114', '115', '252', '280', '431'],
+			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(16, 30, 00), new Time(18, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(16, 30, 00), new Time(18, 00, 00))]
+			},{
+			  name: 'Wyatt Peters',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', 'IS 117', '218', '247'],
+			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(13, 00, 00), new Time(16, 00, 00))]
+			},{
+			  name: 'Alex Rodrigues',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '115', '252', '280', '332'],
+			  times: [new MeetingTime(MeetingTime.Days.FRIDAY, new Time(10, 00, 00), new Time(11, 30, 00))]
 			},
 			{
-			  name: 'Joshua Olayinka',
-			  subjects: ['C++', 'Java', 'Python'],
-			  courses: ['CS 114', 'IT 310'],
-			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(12, 00, 00), new Time(14, 00, 00)), new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 00, 00), new Time(14, 00, 00))]
+			  name: 'Shikha Shah',
+			  subjects: ['Java','Python'],
+			  courses: ['CS 100', '113', '114', '252', '280'],
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 30, 00), new Time(16, 00, 00))]
 			},
 			{
-			  name: 'Andrew Rendon',
-			  subjects: ['HTML', 'Java', 'JavaScript', 'jQuery', 'MySQL', 'PHP', 'Python'],
-			  courses: ['CS 113', 'IT 201', '386', '420'],
-			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(13, 30, 00), new Time(16, 30, 00))]
-			},
-			{
-			  name: 'Inderpal Singh',
-			  subjects: ['Java', 'Python'],
+			  name: 'Dushyant Singh',
+			  subjects: ['Java','Python'],
 			  courses: ['CS 100', '113'],
-			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(11, 30, 00), new Time(13, 00, 00))]
-			},
-			{
-			  name: 'Khadir Williams',
-			  subjects: ['Java', 'Python'],
-			  courses: ['CS 100', '113', '114', '252'],
-			  times: [new MeetingTime(MeetingTime.Days.TUESDAY, new Time(14, 30, 00), new Time(16, 00, 00)), new MeetingTime(MeetingTime.Days.WEDNESDAY, new Time(13, 00, 00), new Time(14, 30, 00))]
-			},
-			{
-			  name: 'Mikhail Zharov',
-			  subjects: ['C++', 'C#', 'Java', 'MATLAB', 'Python', 'SQL'],
-			  courses: ['CS 100', '370', '431'],
-			  times: [new MeetingTime(MeetingTime.Days.THURSDAY, new Time(15, 30, 00), new Time(18, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(17, 00, 00), new Time(18, 00, 00))]
+			  times: [new MeetingTime(MeetingTime.Days.MONDAY, new Time(12, 30, 00), new Time(14, 00, 00)), new MeetingTime(MeetingTime.Days.FRIDAY, new Time(13, 00, 00), new Time(14, 30, 00))]
 			}
 		],
 
